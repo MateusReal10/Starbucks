@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    section {
+        padding: 50px 10px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .content .textBox h2 {
+        font-size: 2em;
+    }
+
+    .thumb li img {
+        max-width: 30px;
+    }
+
+    .sci li a {
+        transform: scale(0.5);
+    }
+}
+
+@media (max-width: 480px) {
+    header ul li a {
+        font-size: 14px;
+    }
+
+    .content .textBox h2 {
+        font-size: 1.8em;
+    }
+
+    .thumb li img {
+        max-width: 25px;
+    }
+
+    .sci li a {
+        transform: scale(0.4);
+    }
+}
